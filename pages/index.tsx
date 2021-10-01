@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl text-red-50">tailwindcss導入</h1>
+      <h1 className="text-3xl text-red-50">記録の一歩</h1>
     </>
   );
 }
