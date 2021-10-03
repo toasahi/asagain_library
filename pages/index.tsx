@@ -5,7 +5,13 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl text-red-50">記録の一歩</h1>
+      <main className="container mx-auto">
+        <div className="">
+          <h1 className="text-3xl">
+            Asagain Library
+          </h1>
+        </div>
+      </main>
     </>
   );
 }
