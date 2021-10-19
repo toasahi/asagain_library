@@ -17,7 +17,7 @@ export default function index({posts}) {
 // }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch(`http://localhost:3000/api/hello`);
+  const res = await fetch(`http://localhost:3000/api/book`);
   const posts = await res.json();
   return { props: { posts } };
 };
